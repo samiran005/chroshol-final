@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrousol</title>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="./App.js" defer></script>
+
+</head>
+
+<body>
+    <div class="chrousol-container">
+        <!-- next or previous button -->
+        <i class="bi bi-arrow-left-short btn-slide" id="prevBtn"></i>
+        <i class="bi bi-arrow-right-short btn-slide" id="nextBtn"></i>
+
+        <!-- radio for indicator -->
+        <input type="radio" name="slide" id="radioFirst">
+        <input type="radio" name="slide" id="radio1" checked>
+        <input type="radio" name="slide" id="radio2">
+        <input type="radio" name="slide" id="radio3">
+        <input type="radio" name="slide" id="radio4">
+        <input type="radio" name="slide" id="radioLast">
+
+        <!-- labels for radio -->
+        <div class="radio-label-container">
+            <label for="radioFirst" class="radio--label"></label>
+            <label for="radio1" class="radio--label"></label>
+            <label for="radio2" class="radio--label"></label>
+            <label for="radio3" class="radio--label"></label>
+            <label for="radio4" class="radio--label"></label>
+            <label for="radioLast" class="radio--label"></label>
+        </div>
+
+
+        <!-- slides -->
+        <div class="chrousol">
+            <div class="slide last--clone">
+                <img src="./images/slider4.jpg" alt="slider4">
+            </div>
+            <div class="slide">
+                <img src="./images/slider1.jpg" alt="slider1">
+            </div>
+            <div class="slide">
+                <img src="./images/slider2.jpg" alt="slider2">
+            </div>
+            <div class="slide">
+                <img src="./images/slider3.jpg" alt="slider3">
+            </div>
+            <div class="slide">
+                <img src="./images/slider4.jpg" alt="slider4">
+            </div>
+            <div class="slide first--clone">
+                <img src="./images/slider1.jpg" alt="slider1">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

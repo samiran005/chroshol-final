@@ -1,0 +1,3 @@
+1. build the chrousol without radio
+2. add radio with fully functionable
+3. add extra fature("automaticaly slide");
